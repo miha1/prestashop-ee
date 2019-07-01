@@ -23,7 +23,7 @@ matrix:
     php: 7.1
     before_script:
       - pip install --user bs4
-      - bash .bin/generate-release-package.sh
+#      - bash .bin/generate-release-package.sh
       - travis_retry composer require --dev $COMPOSER_ARGS codeception/codeception:^2.5
     script:
       - bash .bin/run-validator-test.sh
@@ -53,65 +53,65 @@ matrix:
 #    - .bin/rake phraseapp:ci_check_if_in_sync
 #    after_script: skip
 
-  - stage: get-prestashop-versions
-    if: type = cron
-    php: 7.1
-    install: skip
-    before_script: skip
-    script: bash .bin/get-prestashop-versions.sh
-    after_script: skip
-    after_failure: skip
-
-  - &acceptance-test
-    stage: acceptance-test
-    if: type = cron
-    php: 7.1
-    env:
-    - GATEWAY=API-TEST
-    - PRESTASHOP_RELEASE_VERSION=1
-    before_install: skip
-    install:
-    - |
-      export PRESTASHOP_VERSION=$(awk "NR==$PRESTASHOP_RELEASE_VERSION {print; exit}" ${PRESTASHOP_RELEASES_FILE})
-    script: bash .bin/run-ui-tests.sh
-    after_script: skip
-    after_success:
-    - bash .bin/upload-logs-and-notify.sh
-    after_failure:
-    - bash .bin/upload-logs-and-notify.sh fail
-
-  - <<: *acceptance-test
-    env:
-    - GATEWAY=API-TEST
-    - PRESTASHOP_RELEASE_VERSION=2
-  - <<: *acceptance-test
-    env:
-    - GATEWAY=API-TEST
-    - PRESTASHOP_RELEASE_VERSION=3
-  - <<: *acceptance-test
-    env:
-    - GATEWAY=API-WDCEE-TEST
-    - PRESTASHOP_RELEASE_VERSION=1
-  - <<: *acceptance-test
-    env:
-    - GATEWAY=API-WDCEE-TEST
-    - PRESTASHOP_RELEASE_VERSION=2
-  - <<: *acceptance-test
-    env:
-    - GATEWAY=API-WDCEE-TEST
-    - PRESTASHOP_RELEASE_VERSION=3
-  - <<: *acceptance-test
-    env:
-    - GATEWAY=NOVA
-    - PRESTASHOP_RELEASE_VERSION=1
-  - <<: *acceptance-test
-    env:
-    - GATEWAY=NOVA
-    - PRESTASHOP_RELEASE_VERSION=2
-  - <<: *acceptance-test
-    env:
-    - GATEWAY=NOVA
-    - PRESTASHOP_RELEASE_VERSION=3
+#  - stage: get-prestashop-versions
+#    if: type = cron
+#    php: 7.1
+#    install: skip
+#    before_script: skip
+#    script: bash .bin/get-prestashop-versions.sh
+#    after_script: skip
+#    after_failure: skip
+#
+#  - &acceptance-test
+#    stage: acceptance-test
+#    if: type = cron
+#    php: 7.1
+#    env:
+#    - GATEWAY=API-TEST
+#    - PRESTASHOP_RELEASE_VERSION=1
+#    before_install: skip
+#    install:
+#    - |
+#      export PRESTASHOP_VERSION=$(awk "NR==$PRESTASHOP_RELEASE_VERSION {print; exit}" ${PRESTASHOP_RELEASES_FILE})
+#    script: bash .bin/run-ui-tests.sh
+#    after_script: skip
+#    after_success:
+#    - bash .bin/upload-logs-and-notify.sh
+#    after_failure:
+#    - bash .bin/upload-logs-and-notify.sh fail
+#
+#  - <<: *acceptance-test
+#    env:
+#    - GATEWAY=API-TEST
+#    - PRESTASHOP_RELEASE_VERSION=2
+#  - <<: *acceptance-test
+#    env:
+#    - GATEWAY=API-TEST
+#    - PRESTASHOP_RELEASE_VERSION=3
+#  - <<: *acceptance-test
+#    env:
+#    - GATEWAY=API-WDCEE-TEST
+#    - PRESTASHOP_RELEASE_VERSION=1
+#  - <<: *acceptance-test
+#    env:
+#    - GATEWAY=API-WDCEE-TEST
+#    - PRESTASHOP_RELEASE_VERSION=2
+#  - <<: *acceptance-test
+#    env:
+#    - GATEWAY=API-WDCEE-TEST
+#    - PRESTASHOP_RELEASE_VERSION=3
+#  - <<: *acceptance-test
+#    env:
+#    - GATEWAY=NOVA
+#    - PRESTASHOP_RELEASE_VERSION=1
+#  - <<: *acceptance-test
+#    env:
+#    - GATEWAY=NOVA
+#    - PRESTASHOP_RELEASE_VERSION=2
+#  - <<: *acceptance-test
+#    env:
+#    - GATEWAY=NOVA
+#    - PRESTASHOP_RELEASE_VERSION=3
 
 #  - stage: deploy
 #    if: tag IS present AND type = push
