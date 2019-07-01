@@ -1,3 +1,5 @@
+# [2.0.0](https://github.com/miha1/release-it-prestashop/compare/1.3.6...2.0.0) (2019-07-01)
+
 # [2.0.0](https://github.com/miha1/release-it-prestashop/compare/1.3.5...2.0.0) (2019-07-01)
 
 
