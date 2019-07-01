@@ -1,5 +1,5 @@
 {
-  "npm" : false,
+  "npm": false,
   "git": {
     "requireUpstream": false,
     "requireCleanWorkingDir": false,
@@ -7,7 +7,9 @@
   },
   "github": {
     "assets": {
-      "files": "wirecardpaymentgateway.zip"
+      "files": [
+        "wirecardpaymentgateway.zip"
+      ]
     },
     "release": true
   },
@@ -17,8 +19,14 @@
       "infile": "CHANGELOG.md"
     },
     "@release-it/bumper": {
-      "in": { "file": "wirecardpaymentgateway/VERSION", "type": "text/plain" },
-      "out": { "file": "wirecardpaymentgateway/VERSION", "type": "text/plain" }
+      "in": {
+        "file": "wirecardpaymentgateway/VERSION",
+        "type": "text/plain"
+      },
+      "out": {
+        "file": "wirecardpaymentgateway/VERSION",
+        "type": "text/plain"
+      }
     }
   },
   "hooks": {
