@@ -1,4 +1,5 @@
 .idea/*
+node_modules/
 wirecardpaymentgateway/vendor/*
 composer.lock
 wirecardpaymentgateway/config*.xml
