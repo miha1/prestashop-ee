@@ -2,7 +2,8 @@
   "npm" : false,
   "git": {
     "requireUpstream": false,
-    "requireCleanWorkingDir": false
+    "requireCleanWorkingDir": false,
+    "commitMessage": "Release ${version} [ci skip]"
   },
   "github": {
     "release": true
