@@ -6,6 +6,9 @@
     "commitMessage": "Release ${version} [ci skip]"
   },
   "github": {
+    "assets": {
+      "files": "wirecardpaymentgateway.zip"
+    },
     "release": true
   },
   "plugins": {
@@ -20,6 +23,6 @@
   },
   "hooks": {
     "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}.",
-    "before:release": "bash .bin/generate-release-package.sh"
+    "before:init": "bash .bin/generate-release-package.sh"
   }
 }
