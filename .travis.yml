@@ -5,11 +5,15 @@ jobs:
   include:
     - stage: release
       deploy:
+        if: tag IS present AND type = push
         provider: script
+        file: wirecardpaymentgateway.zip
         skip_cleanup: true
         before_script:
           - travis_retry composer require --dev $COMPOSER_ARGS codeception/codeception:^2.5
-        script: bash .bin/deploy.sh
+        script:
+          - bash .bin/generate-release-package.sh
+          - bash .bin/deploy.sh
         after_script: skip
 install:
   - travis_retry composer require --dev $COMPOSER_ARGS

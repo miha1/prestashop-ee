@@ -1,7 +1,6 @@
 {
   "name": "release-it-prestashop",
   "description": "release-it-prestashop",
-  "version": "0.0.0-development",
   "main": "index.js",
   "directories": {
     "test": "tests"
