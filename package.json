@@ -1,7 +1,7 @@
 {
-  "name": "release-it-test",
-  "description": "release-it-test",
-  "version": "2.0.0",
+  "name": "release-it-prestashop",
+  "description": "release-it-prestashop",
+  "version": "0.0.0-development",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/miha1/release-it-prestashop.git"
+    "url": "ssh://git@github.com/miha1/prestashop-ee.git"
   },
   "author": "",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/miha1/release-it-prestashop/issues"
+    "url": "https://github.com/miha1/prestashop-ee/issues"
   },
-  "homepage": "https://github.com/miha1/release-it-prestashop#readme"
+  "homepage": "https://github.com/miha1/prestashop-ee#readme"
 }

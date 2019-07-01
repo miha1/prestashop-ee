@@ -5,4 +5,4 @@ git symbolic-ref HEAD refs/heads/master
 
 npm i -g npm
 npm install --only=dev
-npx release-it --ci -eV -V
+npm run release --ci -eV

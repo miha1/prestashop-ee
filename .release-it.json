@@ -13,8 +13,8 @@
       "infile": "CHANGELOG.md"
     },
     "@release-it/bumper": {
-      "in": { "file": "VERSION", "type": "text/plain" },
-      "out": { "file": "VERSION", "type": "text/plain" }
+      "in": { "file": "wirecardpaymentgateway\\VERSION", "type": "text/plain" },
+      "out": { "file": "wirecardpaymentgateway\\VERSION", "type": "text/plain" }
     }
   },
   "hooks": {
