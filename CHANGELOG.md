@@ -1,3 +1,13 @@
+#  (2019-07-01)
+
+
+### fix
+
+* try 10 ([123b7b633cc447dd2538151c20a937a5294f6a3f](https://github.com/miha1/prestashop-ee/commit/123b7b633cc447dd2538151c20a937a5294f6a3f))
+* try 7 ([b699b803adef4f212836d3c83d20d88071cc61ef](https://github.com/miha1/prestashop-ee/commit/b699b803adef4f212836d3c83d20d88071cc61ef))
+* try 8 ([e7319607fcc131133fd7ccab5df7da20df412efd](https://github.com/miha1/prestashop-ee/commit/e7319607fcc131133fd7ccab5df7da20df412efd))
+* try 9 ([419a88fbbc9a109216427ae8b933b49b1f99f836](https://github.com/miha1/prestashop-ee/commit/419a88fbbc9a109216427ae8b933b49b1f99f836))
+
 # [0.0.0-development](https://github.com/miha1/prestashop-ee/compare/1.3.7...0.0.0-development) (2019-07-01)
 
 # [2.0.0](https://github.com/miha1/release-it-prestashop/compare/1.3.6...2.0.0) (2019-07-01)
