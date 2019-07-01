@@ -3,6 +3,17 @@
 
 ### fix
 
+* try 11 ([99e7efc29b74541313217790f06d529979583294](https://github.com/miha1/prestashop-ee/commit/99e7efc29b74541313217790f06d529979583294))
+* try 12 ([6f0ca93718b39f4e0a507d39a8c70a8ab5fdd5f8](https://github.com/miha1/prestashop-ee/commit/6f0ca93718b39f4e0a507d39a8c70a8ab5fdd5f8))
+* try 13 ([e3ed8dbe2d041e42e4964471e8c1630bbb640b15](https://github.com/miha1/prestashop-ee/commit/e3ed8dbe2d041e42e4964471e8c1630bbb640b15))
+* try 14 ([ca7eb365f573b57b820f104b222608d73e220a72](https://github.com/miha1/prestashop-ee/commit/ca7eb365f573b57b820f104b222608d73e220a72))
+* try 15 ([636f192f43246641b2be91082e18c1a65cbe872e](https://github.com/miha1/prestashop-ee/commit/636f192f43246641b2be91082e18c1a65cbe872e))
+
+#  (2019-07-01)
+
+
+### fix
+
 * try 10 ([123b7b633cc447dd2538151c20a937a5294f6a3f](https://github.com/miha1/prestashop-ee/commit/123b7b633cc447dd2538151c20a937a5294f6a3f))
 * try 7 ([b699b803adef4f212836d3c83d20d88071cc61ef](https://github.com/miha1/prestashop-ee/commit/b699b803adef4f212836d3c83d20d88071cc61ef))
 * try 8 ([e7319607fcc131133fd7ccab5df7da20df412efd](https://github.com/miha1/prestashop-ee/commit/e7319607fcc131133fd7ccab5df7da20df412efd))
