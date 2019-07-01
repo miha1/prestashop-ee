@@ -1,10 +1,7 @@
 {
   "npm" : false,
   "git": {
-    "requireCleanWorkingDir": false,
-    "requireUpstream": false,
-    "tag": false,
-    "addUntrackedFiles": true
+    "requireCleanWorkingDir": false
   },
   "github": {
     "release": true
