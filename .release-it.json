@@ -1,6 +1,7 @@
 {
   "npm" : false,
   "git": {
+    "requireUpstream": false,
     "requireCleanWorkingDir": false
   },
   "github": {
@@ -15,5 +16,8 @@
       "in": { "file": "VERSION", "type": "text/plain" },
       "out": { "file": "VERSION", "type": "text/plain" }
     }
+  },
+  "hooks": {
+    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
   }
 }
