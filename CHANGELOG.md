@@ -1,3 +1,10 @@
+#  (2019-07-02)
+
+
+### fix
+
+* try 18 ([dbc0863ddd9ab16f7ffaa33901b7517851da4c2e](https://github.com/miha1/prestashop-ee/commit/dbc0863ddd9ab16f7ffaa33901b7517851da4c2e))
+
 #  (2019-07-01)
 
 
