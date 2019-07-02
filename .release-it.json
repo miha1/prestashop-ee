@@ -29,6 +29,7 @@
     }
   },
   "hooks": {
+    "before:release": "bash ./.bin/generate-release-package.sh",
     "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
   }
 }
