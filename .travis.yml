@@ -6,7 +6,6 @@ jobs:
     - stage: release
       deploy:
         provider: script
-        file: wirecardpaymentgateway.zip
         skip_cleanup: true
         before_script:
           - travis_retry composer require --dev $COMPOSER_ARGS codeception/codeception:^2.5
