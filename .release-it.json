@@ -6,12 +6,10 @@
     "commitMessage": "Release ${version} [ci skip]"
   },
   "github": {
-    "assets": {
-      "files": [{
-        "path": "wirecardpaymentgateway.zip",
-        "label": "Wirecard PrestaShop Module"
-      }]
-    },
+    "assets":
+     [
+       "wirecardpaymentgateway.zip"
+     ],
     "release": true
   },
   "plugins": {
