@@ -8,7 +8,7 @@
   "github": {
     "assets":
      [
-       "./.bin/wirecardpaymentgateway.zip"
+       "./wirecardpaymentgateway.zip"
      ],
     "release": true
   },
