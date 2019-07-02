@@ -3,6 +3,14 @@
 
 ### fix
 
+* try 25 ([588800ae31e385471d2b3153697355c91cd9aa14](https://github.com/miha1/prestashop-ee/commit/588800ae31e385471d2b3153697355c91cd9aa14))
+* try 26 ([639331f4948c7bc3ac88c90c7851d65b143ad795](https://github.com/miha1/prestashop-ee/commit/639331f4948c7bc3ac88c90c7851d65b143ad795))
+
+#  (2019-07-02)
+
+
+### fix
+
 * try 24 ([47bda47a2b7638081c9bc0bccd232ad36bf42355](https://github.com/miha1/prestashop-ee/commit/47bda47a2b7638081c9bc0bccd232ad36bf42355))
 
 #  (2019-07-02)
