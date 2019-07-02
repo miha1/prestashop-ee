@@ -10,10 +10,10 @@ jobs:
         before_script:
           - travis_retry composer require --dev $COMPOSER_ARGS codeception/codeception:^2.5
           - composer install $COMPOSER_ARGS
-          - .bin/generate-release-package.sh
         script: bash .bin/deploy.sh
         after_script: skip
 install:
   - travis_retry composer require --dev $COMPOSER_ARGS
   - travis_retry composer install $COMPOSER_ARGS
+  - .bin/generate-release-package.sh
   - composer show
