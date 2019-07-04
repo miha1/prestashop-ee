@@ -3,9 +3,11 @@
   "description": "release-it-prestashop",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "Test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "logrocket": "^1.0.1"
+  },
   "devDependencies": {
     "@release-it/bumper": "^1.0.3",
     "@release-it/conventional-changelog": "^1.1.0",

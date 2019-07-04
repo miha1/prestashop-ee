@@ -1,11 +1,14 @@
 {
   "npm": false,
   "git": {
+    "changelog": "git log --pretty=format:'* %s'",
     "requireUpstream": false,
     "requireCleanWorkingDir": false,
     "commitMessage": "Release ${version} [ci skip]"
   },
   "github": {
+    "releaseName": "PrestaShop Release %s",
+    "releaseNotes": "Release Notes: %s",
     "assets":
      [
        "./wirecardpaymentgateway.zip"
