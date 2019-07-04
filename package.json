@@ -6,10 +6,7 @@
   "directories": {
     "test": "Test"
   },
-  "dependencies": {
-    "handlebars": "^4.1.2",
-    "logrocket": "^1.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@release-it/bumper": "^1.0.3",
     "@release-it/conventional-changelog": "^1.1.0",
