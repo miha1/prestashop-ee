@@ -1,13 +1,13 @@
 {
   "npm": false,
   "git": {
-    "changelog": "git log --pretty=format:'* %s'",
+    "changelog": "git log --pretty=format:'* %B'",
     "requireUpstream": false,
     "requireCleanWorkingDir": false,
     "commitMessage": "Release ${version} [ci skip]"
   },
   "github": {
-    "releaseName": "PrestaShop Release %s",
+    "releaseName": "Wirecard PrestaShop Module %s",
     "assets":
      [
        "./wirecardpaymentgateway.zip"
