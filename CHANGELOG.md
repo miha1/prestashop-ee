@@ -1,3 +1,19 @@
+## [2.0.1](https://github.com/miha1/prestashop-ee/compare/2.0.0...2.0.1) (2019-07-04)
+
+
+### Feat
+
+* try 31 ([80afb890a9914deec1a77f4b40571a01dfd6509e](https://github.com/miha1/prestashop-ee/commit/80afb890a9914deec1a77f4b40571a01dfd6509e))
+
+### Fix
+
+* try 33 ([0d69a0e26e1d4ae97c4966ea19b772a3c401cf7f](https://github.com/miha1/prestashop-ee/commit/0d69a0e26e1d4ae97c4966ea19b772a3c401cf7f))
+* try 34 ([65dbad0f501b34fefd208efcf0041fcf5c62c110](https://github.com/miha1/prestashop-ee/commit/65dbad0f501b34fefd208efcf0041fcf5c62c110))
+
+### Minor
+
+* try 32 ([85d70877301e89c14fdb0db81ccbc87af8e97b87](https://github.com/miha1/prestashop-ee/commit/85d70877301e89c14fdb0db81ccbc87af8e97b87))
+
 #  (2019-07-04)
 
 
