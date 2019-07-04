@@ -1,6 +1,13 @@
 #  (2019-07-04)
 
 
+### Breaking
+
+* try 30 ([784e637a806d17ebaf39efc1597277d36df6f0c5](https://github.com/miha1/prestashop-ee/commit/784e637a806d17ebaf39efc1597277d36df6f0c5))
+
+#  (2019-07-04)
+
+
 ### feat
 
 * try 28 ([da48d8d64d5c543216370649ac80c58c3b739fd2](https://github.com/miha1/prestashop-ee/commit/da48d8d64d5c543216370649ac80c58c3b739fd2))
