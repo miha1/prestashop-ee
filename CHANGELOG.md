@@ -1,3 +1,11 @@
+#  (2019-07-04)
+
+
+### feat
+
+* try 28 ([da48d8d64d5c543216370649ac80c58c3b739fd2](https://github.com/miha1/prestashop-ee/commit/da48d8d64d5c543216370649ac80c58c3b739fd2))
+* try 29 ([88c8e00ea0233c6ebb0d3abfd75db2e8b382f0d6](https://github.com/miha1/prestashop-ee/commit/88c8e00ea0233c6ebb0d3abfd75db2e8b382f0d6))
+
 #  (2019-07-02)
 
 
