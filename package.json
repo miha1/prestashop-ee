@@ -2,6 +2,7 @@
   "name": "release-it-prestashop",
   "description": "release-it-prestashop",
   "main": "index.js",
+  "version": "2.0.0",
   "directories": {
     "test": "Test"
   },
@@ -11,6 +12,7 @@
   "devDependencies": {
     "@release-it/bumper": "^1.0.3",
     "@release-it/conventional-changelog": "^1.1.0",
+    "auto-changelog": "^1.13.0",
     "release-it": "^12.3.0"
   },
   "scripts": {

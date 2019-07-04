@@ -1,7 +1,9 @@
 {
-  "npm": false,
+  "npm": {
+    "release": false
+  },
   "git": {
-    "changelog": "git log --pretty=format:'* %B'",
+    "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template ./preview.hbs",
     "requireUpstream": false,
     "requireCleanWorkingDir": false,
     "commitMessage": "Release ${version} [ci skip]"
